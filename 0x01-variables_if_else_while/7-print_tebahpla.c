@@ -1,18 +1,21 @@
+
 #include <stdio.h>
 /**
  * main - entry point
- *
+ * 
  * Return: alway returns 0
  *
  */
 int main(void)
 {
-	int a = 0;
+	char a;
 
-	for(;a < 10 ; a++)
+	for(a = 'z'; a >= 'a' ; a--)
 	{
-		printf("%d",a);
+		putchar(a);
+
 	}
 	putchar('\n');
 	return (0);
+
 }
