@@ -1,8 +1,8 @@
 #include <stdio.h>
 /*
- * main - Entry point
+ * main - entry point
  *
- * Return: always return 0
+ * Return: alway returns 0
  *
  */
 int main(void)
@@ -18,7 +18,7 @@ int main(void)
 			{
 				putchar((i % 10) + '0');
 				putchar((j % 10) + '0');
-				if ( i != 18 || j != 19)
+				if (i != 18 || j != 19)
 				{
 					putchar(',');
 					putchar(' ');
