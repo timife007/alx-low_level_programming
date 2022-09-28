@@ -1,5 +1,5 @@
 #ifndef _MAIN_H_
-#include _MAIN_H_
+#define _MAIN_H_
 /**
  * is_palindrome - is palindrome
  * @s: string to do
